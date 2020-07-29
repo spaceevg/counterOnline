@@ -1,0 +1,21 @@
+{
+    "name": "spaceevg/counteronline",
+    "type": "library",
+    "description": "",
+    "authors": [
+        {
+            "name": "Evgeniy",
+            "email": "space.evg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CounterOnline\\": "src/"
+        }
+    },
+    "scripts": {
+        "serv": "php -S localhost:8080"
+    }
+}
